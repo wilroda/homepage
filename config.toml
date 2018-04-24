@@ -1,0 +1,46 @@
+baseurl = "http://neurogamejam.com"
+title = "Neuro Game Jam"
+theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  description = '<!--[--> <img src="/images/logo.png" style="height:300px";><!--]--><br /><!--[--> 11th - 13th of April, 2018 | @ Universidade Lusófuna<!--]-->'
+  copyright = "Source code"
+  signup = "Register"
+  signlang = "https://docs.google.com/forms/d/e/1FAIpQLSeF0DY6Pi0lvaUs7vVuACL_VADyV48GbkguP4KF-LSXdyQ0Iw/viewform"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "#"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "#"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "http://github.com/neurogamejam"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+
+[languages.PT]
+languageName = "Portuguese"
+weight = 2
+title = "Neuro Game Jam"
+description = '<!--[--> <img src="/images/logo.png" style="height:300px";><!--]--><br /><!--[--> 11 - 13 de Abril, 2018 | @ Universidade Lusófuna<!--]-->'
+signup = "Inscreve-te!"
+signlang = "https://docs.google.com/forms/d/e/1FAIpQLSc4U5NN5Jz53lQUzvB6QgbFzPctTL4Bt8FceGRtvVEorCpT-A/viewform"
