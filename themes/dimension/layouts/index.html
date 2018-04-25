@@ -15,7 +15,8 @@
             </div>
             <div class="content">
               <div class="inner">
-                <h1>{{ .Site.Title | safeHTML }}</h1>
+                <h1><img src="/images/logo.png" style="height:300px";></h1>
+
                 <p>{{ .Site.Params.description | safeHTML }}</p>
                 <ul class="actions">
                 	<li><a href= {{ .Site.Params.signlang | safeHTML }} class="button special">{{ .Site.Params.signup | safeHTML }}</a></li>
@@ -40,6 +41,7 @@
 
         <!-- Multilanguage -->
           <div id="languages">
+            <br/>
             {{ if .IsTranslated }}
               {{ range $i, $e := .Translations }}
                 {{ if $i }}, {{ end }}<a href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
