@@ -20,7 +20,7 @@ disableKinds=["RSS"]
 [[params.social]]
   medium = "facebook"
   icon = "facebook"
-  link = "#"
+  link = "https://www.facebook.com/neurogamejam/"
 
 [[params.social]]
   medium = "instagram"
